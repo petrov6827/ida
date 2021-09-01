@@ -1,0 +1,66 @@
+@import '/normalize';
+@import '/variables';
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('~assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+}
+
+//wrappers
+.container {
+  margin: 0 auto;
+  max-width: 576px;
+}
+.section__wrapper {
+  padding: 20px 0;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 718px;
+    margin: 0 auto;
+  }
+  .section__wrapper {
+    padding: 25px 0;
+  }
+}
+@media (min-width: 991px) {
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section__wrapper {
+    padding: 32px 0;
+  }
+}

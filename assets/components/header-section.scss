@@ -1,0 +1,23 @@
+.add-product {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  &__content {}
+}
+.header__section {
+  &-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    cursor: default;
+  }
+  &-filter {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: $placeholder-color;
+  }
+}
